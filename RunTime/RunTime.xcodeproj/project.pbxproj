@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042613B5204A249700DCA41C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 042613B4204A249700DCA41C /* Person.m */; };
+		042613B8204A384100DCA41C /* Person+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 042613B7204A384100DCA41C /* Person+AddProperty.m */; };
 		84BA95261E24C45D00CA00E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA95251E24C45D00CA00E3 /* main.m */; };
 		84BA95291E24C45D00CA00E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA95281E24C45D00CA00E3 /* AppDelegate.m */; };
 		84BA952C1E24C45D00CA00E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA952B1E24C45D00CA00E3 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042613B3204A249700DCA41C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		042613B4204A249700DCA41C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		042613B6204A384100DCA41C /* Person+AddProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+AddProperty.h"; sourceTree = "<group>"; };
+		042613B7204A384100DCA41C /* Person+AddProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+AddProperty.m"; sourceTree = "<group>"; };
 		84BA95211E24C45D00CA00E3 /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA95251E24C45D00CA00E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BA95271E24C45D00CA00E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 			children = (
 				84BA95271E24C45D00CA00E3 /* AppDelegate.h */,
 				84BA95281E24C45D00CA00E3 /* AppDelegate.m */,
+				042613B6204A384100DCA41C /* Person+AddProperty.h */,
+				042613B7204A384100DCA41C /* Person+AddProperty.m */,
+				042613B3204A249700DCA41C /* Person.h */,
+				042613B4204A249700DCA41C /* Person.m */,
 				84BA952A1E24C45D00CA00E3 /* ViewController.h */,
 				84BA952B1E24C45D00CA00E3 /* ViewController.m */,
 				84BA952D1E24C45E00CA00E3 /* Main.storyboard */,
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042613B8204A384100DCA41C /* Person+AddProperty.m in Sources */,
 				84BA952C1E24C45D00CA00E3 /* ViewController.m in Sources */,
+				042613B5204A249700DCA41C /* Person.m in Sources */,
 				84BA95291E24C45D00CA00E3 /* AppDelegate.m in Sources */,
 				84BA95261E24C45D00CA00E3 /* main.m in Sources */,
 			);
@@ -498,6 +510,7 @@
 				84BA95501E24C45E00CA00E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BA95511E24C45E00CA00E3 /* Build configuration list for PBXNativeTarget "RunTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				84BA95531E24C45E00CA00E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BA95541E24C45E00CA00E3 /* Build configuration list for PBXNativeTarget "RunTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				84BA95561E24C45E00CA00E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

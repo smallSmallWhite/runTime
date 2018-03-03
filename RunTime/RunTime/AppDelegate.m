@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "Person+AddProperty.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    
+    Person *_person;
+}
 
 @end
 
@@ -16,7 +20,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _person = [[Person alloc] init];
+    _person.height = 200;
     return YES;
 }
 
